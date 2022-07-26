@@ -22,5 +22,10 @@
     "url": "https://github.com/AveraLabs/WebAppBackend/issues"
   },
   "homepage": "https://github.com/AveraLabs/WebAppBackend#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.4.7"
+  }
 }

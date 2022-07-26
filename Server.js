@@ -17,7 +17,7 @@ let PORT = process.env.PORT;
 let uri = process.env.MONGO;
 
 //Establishing a connection for our MongoDB Server...
-connect(uri);
+//connect(uri);
 
 //Setting-up listener for a port number...
 server.listen({ port: PORT }).then(({ url }) => {
