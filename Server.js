@@ -12,9 +12,9 @@ const server = new ApolloServer({
   cache: "bounded",
 });
 
-let PORT = 5000 || process.env.PORT;
+let PORT = process.env.PORT;
 
-let uri = "mongodb://127.0.0.1:27017/Avera";
+let uri = process.env.MONGO;
 
 //Establishing a connection for our MongoDB Server...
 connect(uri);
